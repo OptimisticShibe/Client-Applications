@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HelloWorld"
         mc:Ignorable="d"
+        WindowState="Maximized"
         Title="MainWindow" Height="350" Width="525">
     <StackPanel>
         <TextBlock>Enter Name:</TextBlock>
@@ -12,5 +13,16 @@
         <TextBlock>Enter Password:</TextBlock>
         <TextBox x:Name="uxPassword"></TextBox>
         <Button x:Name="uxSubmit" Click="uxSubmit_Click">Submit</Button>
+        
+        <!-- Thumbs-up button below -->
+        <Button>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="C:\source\Making Client Applications in C Sharp\HelloWorld\ic_thumb_up_black_24dp_2x.png" />
+                <TextBlock Text="Thumbs Up" 
+                           TextAlignment="Center"
+                           Padding="15px"/>
+            </StackPanel>
+        </Button>
     </StackPanel>
+    
 </Window>

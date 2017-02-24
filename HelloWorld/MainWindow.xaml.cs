@@ -23,11 +23,14 @@ namespace HelloWorld
         public MainWindow()
         {
             InitializeComponent();
+            WindowState = WindowState.Maximized; //equally easy in CS as in XAML
         }
 
         private void uxSubmit_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Submitting password: " + uxPassword.Text);
         }
+
+        
     }
 }
