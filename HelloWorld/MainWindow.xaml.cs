@@ -24,13 +24,54 @@ namespace HelloWorld
         {
             InitializeComponent();
             WindowState = WindowState.Maximized; //equally easy in CS as in XAML
+            uxSubmit.IsEnabled = false;
         }
 
+        private void uxName_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            
+            //if (string.IsNullOrEmpty(uxName.Text) || string.IsNullOrEmpty(uxPassword.Text))
+            //{
+            //    uxSubmit.IsEnabled = false;
+            //}
+            //else
+            //{ uxSubmit.IsEnabled = true; }
+            UpdateInterface();
+        }
+
+        private void uxPassword_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            
+            //if (string.IsNullOrEmpty(uxName.Text) || string.IsNullOrEmpty(uxPassword.Text))
+            //{
+            //    uxSubmit.IsEnabled = false;
+            //}
+            //else
+            //{ uxSubmit.IsEnabled = true; }
+            UpdateInterface();
+        }
+
+        //private void textBoxes_TextChanged(object sender, EventArgs e)
+        //{
+        //    UpdateInterface();
+        //}
+
+        private void UpdateInterface()
+        {
+            if ((!string.IsNullOrEmpty(uxName.Text)) && (!string.IsNullOrEmpty(uxPassword.Text)))
+            {
+                uxSubmit.IsEnabled = true;
+            }
+            else
+            {
+                uxSubmit.IsEnabled = false;
+            }
+        }
         private void uxSubmit_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Submitting password: " + uxPassword.Text);
         }
-
-        
     }
+
 }
+

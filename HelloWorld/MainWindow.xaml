@@ -9,10 +9,10 @@
         Title="MainWindow" Height="350" Width="525">
     <StackPanel>
         <TextBlock>Enter Name:</TextBlock>
-        <TextBox x:Name="uxName"></TextBox>
+        <TextBox x:Name="uxName" TextChanged="uxName_TextChanged"/>
         <TextBlock>Enter Password:</TextBlock>
-        <TextBox x:Name="uxPassword"></TextBox>
-        <Button x:Name="uxSubmit" Click="uxSubmit_Click">Submit</Button>
+        <TextBox x:Name="uxPassword" TextChanged="uxPassword_TextChanged"></TextBox>
+        <Button x:Name="uxSubmit" Click="uxSubmit_Click" >Submit</Button>
         
         <!-- Thumbs-up button below -->
         <Button>
