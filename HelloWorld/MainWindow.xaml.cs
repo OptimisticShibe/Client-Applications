@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data.Entity;
 
 namespace HelloWorld
 {
@@ -20,45 +21,36 @@ namespace HelloWorld
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Models.User user = new Models.User();
         public MainWindow()
         {
             InitializeComponent();
-            WindowState = WindowState.Maximized; //equally easy in CS as in XAML
+            //WindowState = WindowState.Maximized; 
             uxSubmit.IsEnabled = false;
         }
+        public override void EndInit()
+        {
+            base.EndInit();
 
+            var sample = new SampleEntities();
+
+            sample.Users.Load();
+
+            uxList.ItemsSource = sample.Users.Local;
+        }
         private void uxName_TextChanged(object sender, TextChangedEventArgs e)
         {
-            
-            //if (string.IsNullOrEmpty(uxName.Text) || string.IsNullOrEmpty(uxPassword.Text))
-            //{
-            //    uxSubmit.IsEnabled = false;
-            //}
-            //else
-            //{ uxSubmit.IsEnabled = true; }
             UpdateInterface();
         }
 
-        private void uxPassword_TextChanged(object sender, TextChangedEventArgs e)
+        private void uxPassword_PasswordChanged(object sender, RoutedEventArgs e)
         {
-            
-            //if (string.IsNullOrEmpty(uxName.Text) || string.IsNullOrEmpty(uxPassword.Text))
-            //{
-            //    uxSubmit.IsEnabled = false;
-            //}
-            //else
-            //{ uxSubmit.IsEnabled = true; }
             UpdateInterface();
         }
-
-        //private void textBoxes_TextChanged(object sender, EventArgs e)
-        //{
-        //    UpdateInterface();
-        //}
-
+        
         private void UpdateInterface()
         {
-            if ((!string.IsNullOrEmpty(uxName.Text)) && (!string.IsNullOrEmpty(uxPassword.Text)))
+            if ((!string.IsNullOrEmpty(uxName.Text)) && (!string.IsNullOrEmpty(uxPassword.Password)))
             {
                 uxSubmit.IsEnabled = true;
             }
@@ -69,8 +61,16 @@ namespace HelloWorld
         }
         private void uxSubmit_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Submitting password: " + uxPassword.Text);
+            MessageBox.Show("Submitting password: " + uxPassword.Password);
+
+            var window = new SecondWindow();
+            Application.Current.MainWindow = window;
+            Close();
+            window.Show();
         }
+
+        
+        
     }
 
 }

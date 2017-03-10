@@ -1,0 +1,6 @@
+C:\source\Making Client Applications in C Sharp\Homework 2\bin\Debug\Homework 2.exe.config
+C:\source\Making Client Applications in C Sharp\Homework 2\bin\Debug\Homework 2.exe
+C:\source\Making Client Applications in C Sharp\Homework 2\bin\Debug\Homework 2.pdb
+C:\source\Making Client Applications in C Sharp\Homework 2\obj\Debug\Homework 2.csprojResolveAssemblyReference.cache
+C:\source\Making Client Applications in C Sharp\Homework 2\obj\Debug\Homework 2.exe
+C:\source\Making Client Applications in C Sharp\Homework 2\obj\Debug\Homework 2.pdb

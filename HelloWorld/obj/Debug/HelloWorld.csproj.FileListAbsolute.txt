@@ -12,3 +12,12 @@ C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\HelloWorld.
 C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\HelloWorld.csproj.GenerateResource.Cache
 C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\HelloWorld.exe
 C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\HelloWorld.pdb
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\PanelWindow.g.cs
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\PanelWindow.baml
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\SecondWindow.g.cs
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\SecondWindow.baml
+C:\source\Making Client Applications in C Sharp\HelloWorld\bin\Debug\EntityFramework.dll
+C:\source\Making Client Applications in C Sharp\HelloWorld\bin\Debug\EntityFramework.SqlServer.dll
+C:\source\Making Client Applications in C Sharp\HelloWorld\bin\Debug\EntityFramework.xml
+C:\source\Making Client Applications in C Sharp\HelloWorld\bin\Debug\EntityFramework.SqlServer.xml
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\HelloWorld_Content.g.cs

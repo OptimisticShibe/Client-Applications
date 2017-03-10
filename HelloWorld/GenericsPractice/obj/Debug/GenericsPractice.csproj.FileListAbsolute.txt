@@ -1,0 +1,6 @@
+C:\source\Making Client Applications in C Sharp\HelloWorld\GenericsPractice\bin\Debug\GenericsPractice.exe.config
+C:\source\Making Client Applications in C Sharp\HelloWorld\GenericsPractice\bin\Debug\GenericsPractice.exe
+C:\source\Making Client Applications in C Sharp\HelloWorld\GenericsPractice\bin\Debug\GenericsPractice.pdb
+C:\source\Making Client Applications in C Sharp\HelloWorld\GenericsPractice\obj\Debug\GenericsPractice.csprojResolveAssemblyReference.cache
+C:\source\Making Client Applications in C Sharp\HelloWorld\GenericsPractice\obj\Debug\GenericsPractice.exe
+C:\source\Making Client Applications in C Sharp\HelloWorld\GenericsPractice\obj\Debug\GenericsPractice.pdb
