@@ -30,7 +30,7 @@
         <!-- Thumbs-up button below -->
         <Button>
             <StackPanel Orientation="Horizontal">
-                <Image Source="C:\source\Making Client Applications in C Sharp\HelloWorld\ic_thumb_up_black_24dp_2x.png" />
+                <Image Source="C:\source\Making Client Applications in C Sharp\HelloWorld\images\ic_thumb_up_black_24dp_2x.png" />
                 <TextBlock Text="Thumbs Up" 
                            TextAlignment="Center"
                            Padding="15px"/>

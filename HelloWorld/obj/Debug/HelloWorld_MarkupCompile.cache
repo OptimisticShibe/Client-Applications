@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\source\Making Client Applications in C Sharp\HelloWorld\App.xaml
-31646506151
+91810339410
 22028211279
-122043129689
+18-1264227862
 182145594547
-MainWindow.xaml;PanelWindow.xaml;SecondWindow.xaml;
+ComboWindow.xaml;ControlWindow.xaml;MainWindow.xaml;MenuWindow.xaml;NavigatorWindow.xaml;PanelWindow.xaml;ResourceWindow.xaml;SecondWindow.xaml;StatusWindow.xaml;
 
 False
 

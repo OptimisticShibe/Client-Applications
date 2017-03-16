@@ -21,3 +21,16 @@ C:\source\Making Client Applications in C Sharp\HelloWorld\bin\Debug\EntityFrame
 C:\source\Making Client Applications in C Sharp\HelloWorld\bin\Debug\EntityFramework.xml
 C:\source\Making Client Applications in C Sharp\HelloWorld\bin\Debug\EntityFramework.SqlServer.xml
 C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\HelloWorld_Content.g.cs
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\ComboWindow.g.cs
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\ComboWindow.baml
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\MenuWindow.g.cs
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\MenuWindow.baml
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\StatusWindow.g.cs
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\StatusWindow.baml
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\ControlWindow.g.cs
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\ControlWindow.baml
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\NavigatorWindow.g.cs
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\NavigatorWindow.baml
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\ResourceWindow.g.cs
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\App.baml
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\ResourceWindow.baml
