@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\
+C:\source\Client-Applications\HelloWorld\obj\Debug\
 HelloWorld
 none
 false
 DEBUG;TRACE
-C:\source\Making Client Applications in C Sharp\HelloWorld\App.xaml
-91810339410
+C:\source\Client-Applications\HelloWorld\App.xaml
+11253968634
 22028211279
-18-1264227862
-182145594547
-ComboWindow.xaml;ControlWindow.xaml;MainWindow.xaml;MenuWindow.xaml;NavigatorWindow.xaml;PanelWindow.xaml;ResourceWindow.xaml;SecondWindow.xaml;StatusWindow.xaml;
+20-948300949
+181372173048
+ComboWindow.xaml;ControlWindow.xaml;MainWindow.xaml;MenuWindow.xaml;NavigatorWindow.xaml;PanelWindow.xaml;ResourceWindow.xaml;RGBControl.xaml;RGBWindow.xaml;SecondWindow.xaml;StatusWindow.xaml;
 
-False
+True
 

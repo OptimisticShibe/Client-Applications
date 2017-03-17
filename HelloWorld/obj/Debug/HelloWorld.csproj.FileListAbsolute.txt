@@ -34,3 +34,23 @@ C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\NavigatorWi
 C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\ResourceWindow.g.cs
 C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\App.baml
 C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\ResourceWindow.baml
+C:\source\Client-Applications\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\source\Client-Applications\HelloWorld\obj\Debug\HelloWorld.exe
+C:\source\Client-Applications\HelloWorld\obj\Debug\HelloWorld.pdb
+C:\source\Client-Applications\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+C:\source\Client-Applications\HelloWorld\obj\Debug\ComboWindow.g.cs
+C:\source\Client-Applications\HelloWorld\obj\Debug\ControlWindow.g.cs
+C:\source\Client-Applications\HelloWorld\obj\Debug\MainWindow.g.cs
+C:\source\Client-Applications\HelloWorld\obj\Debug\MenuWindow.g.cs
+C:\source\Client-Applications\HelloWorld\obj\Debug\NavigatorWindow.g.cs
+C:\source\Client-Applications\HelloWorld\obj\Debug\PanelWindow.g.cs
+C:\source\Client-Applications\HelloWorld\obj\Debug\ResourceWindow.g.cs
+C:\source\Client-Applications\HelloWorld\obj\Debug\RGBControl.g.cs
+C:\source\Client-Applications\HelloWorld\obj\Debug\RGBWindow.g.cs
+C:\source\Client-Applications\HelloWorld\obj\Debug\SecondWindow.g.cs
+C:\source\Client-Applications\HelloWorld\obj\Debug\StatusWindow.g.cs
+C:\source\Client-Applications\HelloWorld\obj\Debug\App.g.cs
+C:\source\Client-Applications\HelloWorld\obj\Debug\HelloWorld_Content.g.cs
+C:\source\Client-Applications\HelloWorld\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\source\Client-Applications\HelloWorld\obj\Debug\HelloWorld_MarkupCompile.cache
+C:\source\Client-Applications\HelloWorld\obj\Debug\HelloWorld_MarkupCompile.lref
