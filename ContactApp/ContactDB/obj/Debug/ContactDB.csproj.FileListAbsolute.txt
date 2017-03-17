@@ -1,0 +1,10 @@
+C:\source\Making Client Applications in C Sharp\ContactApp\ContactDB\bin\Debug\ContactDB.dll.config
+C:\source\Making Client Applications in C Sharp\ContactApp\ContactDB\bin\Debug\ContactDB.dll
+C:\source\Making Client Applications in C Sharp\ContactApp\ContactDB\bin\Debug\ContactDB.pdb
+C:\source\Making Client Applications in C Sharp\ContactApp\ContactDB\bin\Debug\EntityFramework.dll
+C:\source\Making Client Applications in C Sharp\ContactApp\ContactDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\source\Making Client Applications in C Sharp\ContactApp\ContactDB\bin\Debug\EntityFramework.xml
+C:\source\Making Client Applications in C Sharp\ContactApp\ContactDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\source\Making Client Applications in C Sharp\ContactApp\ContactDB\obj\Debug\ContactDB.csprojResolveAssemblyReference.cache
+C:\source\Making Client Applications in C Sharp\ContactApp\ContactDB\obj\Debug\ContactDB.dll
+C:\source\Making Client Applications in C Sharp\ContactApp\ContactDB\obj\Debug\ContactDB.pdb

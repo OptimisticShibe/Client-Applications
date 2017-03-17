@@ -28,7 +28,12 @@ namespace ContactApp
         // Do something when file is selected
         private void uxFileNew_Click(object sender, RoutedEventArgs e)
         {
+            var window = new ContactWindow();
 
+            if (window.ShowDialog() == true)
+            {
+                App.ContactRepository.Add(window.Contact.ToRepositoryModel());
+            }
         }
     }
 }
