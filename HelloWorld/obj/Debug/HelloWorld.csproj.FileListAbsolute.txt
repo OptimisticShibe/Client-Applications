@@ -54,3 +54,8 @@ C:\source\Client-Applications\HelloWorld\obj\Debug\HelloWorld_Content.g.cs
 C:\source\Client-Applications\HelloWorld\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\source\Client-Applications\HelloWorld\obj\Debug\HelloWorld_MarkupCompile.cache
 C:\source\Client-Applications\HelloWorld\obj\Debug\HelloWorld_MarkupCompile.lref
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\RGBControl.g.cs
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\RGBWindow.g.cs
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\RGBControl.baml
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\RGBWindow.baml

@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace HelloWorld
@@ -17,12 +18,13 @@ namespace HelloWorld
     /// <summary>
     /// Interaction logic for RGBControl.xaml
     /// </summary>
-    public partial class RGBControl : Window
+    public partial class RGBControl : UserControl
     {
         public RGBControl()
         {
             InitializeComponent();
         }
+
         private void uxColor_TextChanged(object sender, TextChangedEventArgs e)
         {
             try
