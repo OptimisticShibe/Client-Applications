@@ -59,10 +59,21 @@ namespace HelloWorld
         //Both of these work, but only one at a time? Activating one click event prevents others from happening?
         private void GridViewColumnHeader_Click_1(object sender, RoutedEventArgs e)
         {
+            UpdateInterfacePassword();
+        }
+        private void GridViewColumnHeader_Click_2(object sender, RoutedEventArgs e)
+        {
+            UpdateInterfaceName();
+        }
+        
+
+        private void UpdateInterfacePassword()
+        {
             CollectionView passwordView = (CollectionView)CollectionViewSource.GetDefaultView(uxList.ItemsSource);
             passwordView.SortDescriptions.Add(new SortDescription("Password", ListSortDirection.Ascending));
         }
-        private void GridViewColumnHeader_Click_2(object sender, RoutedEventArgs e)
+
+        private void UpdateInterfaceName()
         {
             CollectionView view = (CollectionView)CollectionViewSource.GetDefaultView(uxList.ItemsSource);
             view.SortDescriptions.Add(new SortDescription("Name", ListSortDirection.Ascending));

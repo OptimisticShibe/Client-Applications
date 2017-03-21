@@ -36,7 +36,7 @@ namespace ContactApp
             }
 
             Contact.PhoneNumber = uxPhoneNumber.Text;
-            Contact.Age = 0;
+            Contact.Age = (int)uxAge.Value;
             Contact.Notes = uxNotes.Text;
             Contact.CreatedDate = DateTime.Now;
 
@@ -52,7 +52,7 @@ namespace ContactApp
 
         private void uxAgeSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            double age = uxAgeSlider.Value;
+            double age = uxAge.Value;
             uxAgeStatus.Text = "Age: " + age.ToString();
         }
     }
