@@ -13,6 +13,13 @@ namespace ContactApp.Models
         public string Notes { get; set; }
         public DateTime CreatedDate { get; set; }
 
+        //Contact Model clone
+
+        internal ContactModel Clone()
+        {
+            return (ContactModel) MemberwiseClone();
+        }
+
         public ContactRepository.ContactModel ToRepositoryModel()
         {
             var repositoryModel = new ContactRepository.ContactModel
@@ -46,5 +53,6 @@ namespace ContactApp.Models
 
             return contactModel;
         }
+    
     }
 }

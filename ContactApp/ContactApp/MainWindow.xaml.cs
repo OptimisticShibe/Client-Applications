@@ -13,7 +13,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ContactApp.Models;
-using System.Windows.Controls;
 using System.ComponentModel;
 
 namespace ContactApp
@@ -89,8 +88,27 @@ namespace ContactApp
             }
         }
 
+        // for menu and context menu update
         private void uxFileChange_Click(object sender, RoutedEventArgs e)
         {
+            // add code for update here
+
+            var window = new ContactWindow();
+            window.Contact = selectedContact.Clone();
+
+            if (window.ShowDialog() == true)
+            {
+                App.ContactRepository.Update(window.Contact.ToRepositoryModel());
+                LoadContacts();
+            }
+
+        }
+
+
+        private void uxFileChange_Loaded(object sender, RoutedEventArgs e)
+        {
+            uxFileChange.IsEnabled = (selectedContact != null);
+            uxContextFileChange.IsEnabled = uxFileChange.IsEnabled;
         }
 
         
@@ -107,6 +125,11 @@ namespace ContactApp
             var sortDescription = new System.ComponentModel.SortDescription(sortBy, System.ComponentModel.ListSortDirection.Ascending);
 
             uxContactList.Items.SortDescriptions.Add(sortDescription);
+        }
+
+        private void uxContactList_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            uxFileChange_Click(sender, null);
         }
     }
     
