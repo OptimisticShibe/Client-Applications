@@ -59,3 +59,5 @@ C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\RGBWindow.g
 C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\RGBControl.baml
 C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\RGBWindow.baml
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\ListBoxWindow.g.cs
+C:\source\Making Client Applications in C Sharp\HelloWorld\obj\Debug\ListBoxWindow.baml
