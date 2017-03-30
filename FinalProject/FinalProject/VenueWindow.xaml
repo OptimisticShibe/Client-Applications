@@ -1,0 +1,54 @@
+﻿<Window x:Class="FinalProject.VenueWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalProject"
+        mc:Ignorable="d"
+        Title="VenueWindow" Height="230" Width="300"
+        FocusManager.FocusedElement="{Binding ElementName=uxVenueName}" Loaded="Window_Loaded">
+    
+    <Grid x:Name="uxGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="0" Grid.Row="0" HorizontalAlignment="Right">Venue Name:</TextBlock>
+        <TextBox x:Name="uxVenueName" Text="{Binding VenueName}" Grid.Column="1" Grid.Row="0"></TextBox>
+
+        <TextBlock Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right">Ticket Price: $</TextBlock>
+        <TextBox x:Name="uxTicketPrice" Text="{Binding TicketPrice}" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" Width="40" TextChanged="uxTicketPrice_TextChanged"></TextBox>
+
+        <TextBlock Grid.Column="0" Grid.Row="2" HorizontalAlignment="Right">Quantity:</TextBlock>
+        <TextBox x:Name="uxQuantity" Text="{Binding Quantity}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" Width="40" TextChanged="uxQuantity_TextChanged"></TextBox>
+
+        <TextBlock Grid.Column="0" Grid.Row="3" HorizontalAlignment="Right">Order Value: $</TextBlock>
+        <!--Connect BELOW to Price * Quantity-->
+        <TextBlock x:Name="uxOrderValue" Text="{Binding OrderValue}" Grid.Column="1" Grid.Row="3"></TextBlock>
+
+        <TextBlock Grid.Column="0" Grid.Row="4" HorizontalAlignment="Right">Shipping Option:</TextBlock>
+        <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="4">
+            <RadioButton x:Name="uxETickets" IsChecked="true">E-Tickets</RadioButton>
+            <RadioButton x:Name="uxHardTickets">Hard Tickets</RadioButton>
+        </StackPanel>
+
+        <TextBlock Grid.Column="0" Grid.Row="5" HorizontalAlignment="Right">Notes:</TextBlock>
+        <TextBox x:Name="uxNotes" Text="{Binding Notes}" Grid.Column="1" Grid.Row="5" AcceptsReturn="True" TextWrapping="Wrap" Height="60"></TextBox>
+
+        <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="6" HorizontalAlignment="Left">
+            <Button x:Name="uxSubmit" MinWidth="10" HorizontalAlignment="Center" Margin="10" Click="uxSubmit_Click">Add</Button>
+            <Button x:Name="uxCancel" MinWidth="10" HorizontalAlignment="Center" Margin="10" Click="uxCancel_Click">Cancel</Button>
+        </StackPanel>
+
+    </Grid>
+</Window>

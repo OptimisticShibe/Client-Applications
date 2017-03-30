@@ -1,0 +1,52 @@
+﻿<Window x:Class="FinalProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="850">
+    <StackPanel Orientation="Vertical">
+        <Menu>
+            <MenuItem Header="_File"> <!--copied over from class project-->
+                <MenuItem x:Name="uxFileNew" Header="_New" Click="uxFileNew_Click" />
+                <MenuItem x:Name="uxFileDelete" Header="_Delete" Click="uxFileDelete_Click" Loaded="uxFileDelete_Loaded" />
+                <MenuItem x:Name="uxFileChange" Header="_Modify" Click="uxFileChange_Click" Loaded="uxFileChange_Loaded"  />
+                <MenuItem x:Name="uxFileExit" Header="_Exit" Click="uxFileExit_Click"/>
+            </MenuItem>
+        </Menu>
+        <ListView x:Name="uxVenueList" Height="300" SelectionChanged="uxVenueList_SelectionChanged" MouseDoubleClick="uxVenueList_MouseDoubleClick"><!--Add events-->
+            <!--Context Menu Here-->
+            <ListView.ContextMenu>
+                <ContextMenu>
+                    <MenuItem x:Name="uxContextFileNew" Header="_New" Click="uxContextFileNew_Click"/>
+                    <MenuItem x:Name="uxContextFileChange" Header="_Modify" Click="uxContextFileChange_Click"/>
+                    <MenuItem x:Name="uxContextFileDelete" Header="_Delete" Click="uxContextFileDelete_Click" Loaded="uxContextFileDelete_Loaded"/>
+                </ContextMenu>
+            </ListView.ContextMenu>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding VenueName}" Width="200">
+                        <GridViewColumnHeader Tag="VenueName">Venue Name</GridViewColumnHeader>
+                    </GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding  TicketPrice}" Width="100">
+                        <GridViewColumnHeader Tag="Price">Ticket Price</GridViewColumnHeader>
+                    </GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Quantity}" Width="100">
+                        <GridViewColumnHeader Tag="Quantity">Quantity</GridViewColumnHeader>
+                    </GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding OrderValue}" Width="100">
+                        <GridViewColumnHeader Tag="Value">Order Value</GridViewColumnHeader>
+                    </GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding ShippingOption}" Width="100">
+                        <GridViewColumnHeader Tag="ShippingOption">Shipping Option</GridViewColumnHeader>
+                    </GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Notes}" Width="200">
+                        <GridViewColumnHeader Tag="Value">Notes</GridViewColumnHeader>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+            
+        </ListView>
+    </StackPanel>
+</Window>

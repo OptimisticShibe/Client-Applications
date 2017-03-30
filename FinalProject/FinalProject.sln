@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProject", "FinalProject\FinalProject.csproj", "{C508A62F-1CA0-435B-AE9B-E6300E2C3C15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VenueDB", "VenueDB\VenueDB.csproj", "{C3CC2D3D-D508-4867-BA90-7457F4B174E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VenueRepository", "VenueRepository\VenueRepository.csproj", "{10FB7792-9B78-4D5F-A6AD-BDCD61B1AEF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C508A62F-1CA0-435B-AE9B-E6300E2C3C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C508A62F-1CA0-435B-AE9B-E6300E2C3C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C508A62F-1CA0-435B-AE9B-E6300E2C3C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C508A62F-1CA0-435B-AE9B-E6300E2C3C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3CC2D3D-D508-4867-BA90-7457F4B174E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3CC2D3D-D508-4867-BA90-7457F4B174E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3CC2D3D-D508-4867-BA90-7457F4B174E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3CC2D3D-D508-4867-BA90-7457F4B174E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10FB7792-9B78-4D5F-A6AD-BDCD61B1AEF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10FB7792-9B78-4D5F-A6AD-BDCD61B1AEF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10FB7792-9B78-4D5F-A6AD-BDCD61B1AEF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10FB7792-9B78-4D5F-A6AD-BDCD61B1AEF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

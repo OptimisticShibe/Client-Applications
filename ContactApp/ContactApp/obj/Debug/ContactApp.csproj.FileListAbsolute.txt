@@ -27,3 +27,5 @@ C:\source\Making Client Applications in C Sharp\ContactApp\ContactApp\obj\Debug\
 C:\source\Making Client Applications in C Sharp\ContactApp\ContactApp\obj\Debug\MouseWindow.baml
 C:\source\Making Client Applications in C Sharp\ContactApp\ContactApp\obj\Debug\ListBoxWindow.g.cs
 C:\source\Making Client Applications in C Sharp\ContactApp\ContactApp\obj\Debug\ListBoxWindow.baml
+C:\source\Client-Applications\ContactApp\ContactApp\obj\Debug\ContactApp.exe
+C:\source\Client-Applications\ContactApp\ContactApp\obj\Debug\ContactApp.pdb
